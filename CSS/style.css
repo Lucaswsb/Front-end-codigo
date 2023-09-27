@@ -1,0 +1,265 @@
+
+
+/* Gerais */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #007bff9f;
+    
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* Barra de navegaçao */
+
+header, .navbar {
+    width: auto;
+    height: 80px;
+    background-color: #1F2839;
+    margin: 0px 5px 5px 5px;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+/* header, .navbar {
+    width: auto;
+    height: 80px;
+    background-color: #1F2839;
+    margin: 5px;
+    border-radius: 20px;
+} */
+
+.botaoBusca {
+    border: 1px solid #89C7CB;
+    border-radius: 10px;
+}
+
+.fa-magnifying-glass {
+    color: #007BFF;
+}
+
+
+#logo {
+    width: 200px;
+    padding-left: 60px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+
+.form-control {
+    display: block;
+    width: 550px;
+    height: 30px;
+    margin-left: 125px;
+    padding-left: 15px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    appearance: auto;
+    border-radius: 8px;
+    border: 2px solid #89C7CB;
+}
+
+/*Conteudo principal*/
+main {
+    min-height: 500px;
+}
+
+.card-group {
+    background-color: #1F2839;
+}
+
+
+/*banner*/
+#sectionBanners img {
+    height: 500px; 
+}
+
+/*Destaques*/
+#sectionDestaques{
+    text-align: center;
+}
+
+#sectionDestaques h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#sectionDestaques img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+#sectionDestaques .card {
+    margin: 5px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+#sectionDestaques .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*Produtos*/
+#sectionProdutos{
+text-align: center;
+}
+
+#sectionProdutos h2 {
+    font-weight: bold;
+    padding: 20px;
+    text-align:left;
+}
+
+#sectionProdutos img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+#sectionProdutos .card {
+    margin: 5px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+#sectionProdutos .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Rodapé*/
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+footer p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*Botao voltar ao topo*/
+
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/*pagina login*/
+
+#sectionLogin {
+    
+    margin-top: 30px;
+}
+
+
+#sectionLogin h1 {
+    text-align: center;
+}
+
+#sectionLogin input {
+    width: 100%;
+}
+
+.form-controlLogin {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    
+    padding-left: 15px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    appearance: auto;
+    border-radius: 8px;
+    border: 2px solid #89C7CB;
+}
+
+
+/*Cadastro*/
+
+#sectionCadastro {
+    padding: 5px;
+    text-align: center;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
+
+.login {
+    width: 300px;
+}
+
+#sectionCadastro input {
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    header, .navbar {
+      height: auto;
+      border-radius: 0;
+    }
+  
+    #logo {
+      width: 150px;
+      padding-left: 20px;
+    }
+  
+    .form-control {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+ 
+  }
+  
